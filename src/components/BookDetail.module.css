@@ -1,0 +1,74 @@
+
+.goBackSection {
+  padding: 2rem 0 1rem 0;
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid #303030;
+}
+
+
+.goBack {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.goBack:hover {
+  text-decoration: underline;
+}
+
+.bookDetails {
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.bookDetails img{
+  height: 500px;
+}
+
+
+.bookInfo {
+  text-align: start;
+
+}
+
+.bookInfo h2{
+  font-size: 3rem;
+  margin-top: 0;
+}
+
+.bookInfo h3 {
+  font-weight: normal;
+}
+
+.bookInfo blockquote {
+  margin: 2rem 0;
+}
+
+.sinopsis {
+  font-size: 20px;
+}
+
+
+.otherBooks {
+  opacity: .3;
+  font-size: 16px;
+}
+
+.notFound {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  align-items: center;
+}
+
+.addButton {
+  background-color: #5A8E5C;
+}
+
+.removeButton {
+  background-color: #B44545;
+}

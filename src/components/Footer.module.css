@@ -1,0 +1,19 @@
+
+.myFooter {
+  background-color: #10101069;
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  border-radius: 32px;
+  padding: 10px 15px;
+  text-align: start;
+}
+
+.myFooter p {
+  margin: 0;
+}
+
+.myFooter h4 {
+  font-size: medium;
+  margin: 0;
+}

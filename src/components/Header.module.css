@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  text-align: start;
+}
+
+.header h1{
+  font-size: 4rem;
+  font-weight: 900;
+  background: linear-gradient(45deg, #B44545, #E4DB8A, #5A8E5C);
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.searchContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.searchInput {
+  padding: 8px 30px 8px 10px;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #555;
+}
+
+@media (max-width: 728px) {
+  .header {
+    flex-direction: column;  
+    text-align: center;
+  }
+}

@@ -1,0 +1,11 @@
+.booksGrid {
+  margin: 2rem 0 0 0;
+  padding: 0;
+
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 170px));
+  gap: 2rem;
+}
+
