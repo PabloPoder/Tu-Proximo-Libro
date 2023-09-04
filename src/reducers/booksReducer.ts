@@ -1,4 +1,4 @@
-import data from '../mocks/data.json'
+import data from '../mocks/data.json' assert { type: 'json' }
 import { type BooksContextType, type Book, type AddToListAction, type RemoveFromListAction, type ReducerActionType } from '../types'
 import { BOOKS_ACTIONS } from '../utils/constants'
 

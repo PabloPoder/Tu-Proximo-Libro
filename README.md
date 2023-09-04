@@ -54,4 +54,18 @@ npm start
 ```
 
 ## Tests 🧪
-_en desarrollo_
+
+El objetivo de esta prueba es verificar que los usuarios pueden agregar y eliminar libros de su lista correctamente.
+
+Para ejecutar el test puedes usar los siguientes comandos:
+
+```
+npx playwright test
+```
+o
+
+```
+npm test
+```
+
+Ten en cuenta que puedes cambiar la ruta de la pagina `LOCALHOST_URL` en [tests/test-1.spec.ts]

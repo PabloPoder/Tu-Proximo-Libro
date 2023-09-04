@@ -28,5 +28,11 @@ dist-ssr
 .eslintrc.cjs
 .gitattributes
 pnpm-lock.yaml
+package-lock.json
 tsconfig.node.json
 .gitignore
+.tsconfig.json
+/test-results/
+/playwright-report/
+/playwright/.cache/
+playwright.config.ts
