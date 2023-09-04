@@ -29,7 +29,7 @@ El objetivo de esta aplicación es la de poner en práctica mis habilidades en e
 
 ![image](https://github.com/PabloPoder/Tu-Proximo-Libro/assets/50326883/e84d9fcb-ef8d-4f85-8f0d-7e75c813ea8f)
 
-## Visitar la pagina 💻
+## Visitar pagina 💻
 _en desarrollo_
 
 ## Instalación ⚙️
