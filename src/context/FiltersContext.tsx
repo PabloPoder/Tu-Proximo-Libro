@@ -11,9 +11,14 @@ const initialFilters: FiltersType = {
   query: ''
 }
 
-export const FiltersContext = createContext<FiltersContextType>()
+export const FiltersContext = createContext<FiltersContextType>(
+  {
+    filters: initialFilters,
+    setFilters: () => void {},
+  }
+)
 
-export function FiltersProvider ({ children }) {
+export function FiltersProvider({ children }: { children: React.ReactNode }) {
   const [filters, setFilters] = useState<FiltersType>(initialFilters)
 
   return (

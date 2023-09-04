@@ -1,5 +1,5 @@
 import data from '../mocks/data.json' assert { type: 'json' }
-import { type BooksContextType, type Book, type AddToListAction, type RemoveFromListAction, type ReducerActionType } from '../types'
+import { type BooksContextType, type Book, type AddToListAction, type RemoveFromListAction } from '../types'
 import { BOOKS_ACTIONS } from '../utils/constants'
 
 const localStorage = window.localStorage.getItem('library')
@@ -74,7 +74,7 @@ const UPDATE_STATE_BY_ACTION = {
   }
 }
 
-export const booksReducer = (state: BooksContextType, action: ReducerActionType) => {
+export const booksReducer = (state: BooksContextType, action: any) => {
   const { type: actionType } = action
 
   const updateState = UPDATE_STATE_BY_ACTION[actionType]

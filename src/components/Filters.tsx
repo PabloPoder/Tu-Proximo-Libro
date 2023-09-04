@@ -5,8 +5,14 @@ import { useId } from 'react'
 import { useFilters } from '../hooks/useFilters.ts'
 import { GENRES } from '../utils/constants.ts'
 import { useBooks } from '../hooks/useBooks.ts'
+import { FC}from "react"
 
-export const Filters = ({ setShowCase, selectedView }) => {
+interface Props {
+  setShowCase: (value: boolean) => void
+  selectedView: boolean
+}
+
+export const Filters: FC<Props> = ({ setShowCase, selectedView } ) => {
   const { filters, setFilters } = useFilters()
   const { availableBooksCount, myListCount } = useBooks()
 
