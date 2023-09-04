@@ -23,14 +23,14 @@ El objetivo de esta aplicación es la de poner en práctica mis habilidades en e
 - [ ] 7. **Despliegue**
 - [ ] 8. **Test**
 
+## Visitar pagina 💻
+[Tu Próximo Libro - Netlify](https://tuproximolibro.netlify.app/)
+
 ## Capturas del sitio 📷
 
 ![image](https://github.com/PabloPoder/Tu-Proximo-Libro/assets/50326883/2321ccd0-e55f-41ef-ae07-f53930859b2f)
 
 ![image](https://github.com/PabloPoder/Tu-Proximo-Libro/assets/50326883/e84d9fcb-ef8d-4f85-8f0d-7e75c813ea8f)
-
-## Visitar pagina 💻
-_en desarrollo_
 
 ## Instalación ⚙️
 1. Clona el repositorio de GitHub en tu computadora:
