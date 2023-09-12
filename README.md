@@ -1,4 +1,4 @@
-# Tu Próximo Libro - _En desarrollo_
+# Tu Próximo Libro
 
 ## Introducción 👋🏻
 
