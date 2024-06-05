@@ -19,9 +19,8 @@ El objetivo de esta aplicación es la de poner en práctica mis habilidades en e
 - [x] 3. **Filtrado de Libros por Género y otros parametros**
 - [x] 4. **Sincronización de Estado**
 - [x] 5. **Persistencia de Datos**
-- [ ] 6. **Sincronización entre pestañas**
-- [x] 7. **Despliegue**
-- [x] 8. **Test**
+- [x] 6. **Despliegue**
+- [x] 7. **Test**
 
 ## Visitar pagina 💻
 <a href="https://tuproximolibro.netlify.app/" target="_blank">Tu Próximo Libro - Netlify</a>
